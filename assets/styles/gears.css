@@ -40,12 +40,14 @@
 .navbar .site-logo {
     font-weight: 700;
 }
-.navbar .site-logo a{
+
+.navbar .site-logo a {
     font-size: 24px;
     color: var(--secondary-color);
     text-decoration: none;
 
 }
+
 .navbar>ul {
     display: flex;
 }
@@ -105,17 +107,19 @@ section.banner-section {
     margin-top: 15px;
     display: inline-block;
 }
-.banner-img{
+
+.banner-img {
     background-image: url("../images/Circle\ design.svg");
     background-repeat: no-repeat;
-    background-size:contain;
+    background-size: contain;
 }
-.banner-img img{
+
+.banner-img img {
     max-width: 100%;
 }
 
 /* clients Part styles  */
-.our-clients{
+.our-clients {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -126,8 +130,95 @@ section.banner-section {
     padding: 20px 0px;
     gap: 20px;
 }
-.our-clients> img{
+
+.our-clients>img {
     max-width: 100%;
     max-height: 30px;
     flex: 1;
+}
+
+/* Popular Collection Part Styles  */
+.main-content {
+    width: var(--primary-width);
+    margin: 90px auto;
+}
+
+.popular {
+    margin: 50px auto;
+    text-align: center;
+}
+
+.popular h2 {
+    color: var(--secondary-color);
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 70px;
+}
+
+.popular-collection {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    justify-content: space-between;
+}
+
+.collection-card {
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+}
+
+.collection-card img {
+    width: 100%;
+    height: auto;
+}
+
+.collection-card .card-title a {
+    color: var(--secondary-color);
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+.collection-card .card-price {
+    color: var(--secondary-color);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.trust-pilot {
+    color: #FB8200;
+    font-size: 12px;
+}
+
+.collection-card .card-description {
+    color: var(--secondary-color);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 143%;
+    letter-spacing: 0.252px;
+}
+
+.seemore {
+    text-align: right;
+    margin: 15px 0px;
+}
+
+.seemore a {
+    color: var(--primary-color);
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.seemore a>i {
+    transition: all .35s ease;
+}
+
+.seemore a:hover>i {
+    transform: translateX(20px);
 }

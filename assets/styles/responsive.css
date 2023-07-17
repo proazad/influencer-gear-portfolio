@@ -27,4 +27,8 @@
         flex-wrap: wrap;
     }
 
+    .popular-collection {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
 }

@@ -79,10 +79,10 @@ section.banner-section {
 
 }
 
-.banner-content,
+/* .banner-content,
 .banner-img {
-    /* flex: 1; */
-}
+    flex: 1;
+} */
 
 .banner-content .banner-title {
     color: var(--secondary-color);

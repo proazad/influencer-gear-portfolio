@@ -250,3 +250,36 @@ section.banner-section {
 .seemore a:hover>i {
     transform: translateX(20px);
 }
+
+/* Feature Product Part Styles  */
+.feature-product {
+    display: flex;
+    gap: 70px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px auto;
+}
+
+.feature-imgk,
+.feature-content {
+    flex: 1;
+}
+
+.feature-img img {
+    width: 100%;
+}
+
+.feature-content .feature-title {
+    color: var(--third-color);
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.feature-content .feature-description {
+    color: var(--secondary-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 20px;
+}

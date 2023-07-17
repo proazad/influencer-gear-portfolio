@@ -283,3 +283,43 @@ section.banner-section {
     line-height: 28px;
     margin-bottom: 20px;
 }
+
+/* Footer part Styles  */
+footer {
+    background-color: var(--third-color);
+    color: var(--white-color);
+    text-align: center;
+    padding: 50px 0px;
+}
+
+footer h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+footer p {
+    color: #D9DBE1;
+    font-size: 14px;
+    font-weight:500;
+    line-height: 24px;
+}
+footer ul{
+    list-style: none;
+    display: flex;
+    width: calc(100% - 90%);
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+footer ul li{
+    border-radius: 50%;
+    background-color: var(--secondary-color);
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    text-align: center;
+}
+footer ul li a{
+    text-decoration: none;
+    color: var(--white-color);
+}

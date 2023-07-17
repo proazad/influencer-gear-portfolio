@@ -31,4 +31,22 @@
         grid-template-columns: 1fr;
         gap: 20px;
     }
+
+    .feature-product {
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .feature-content {
+        text-align: center;
+    }
+
+    .feature-content .feature-title {
+        font-size: 27px;
+        line-height: 35px;
+    }
+
+    footer ul {
+        width: calc(100% - 50%);
+    }
 }

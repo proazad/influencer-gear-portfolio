@@ -18,6 +18,15 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.btn {
+    padding: 10px 24px;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
 /* Header Styles  */
 .navbar {
     display: flex;
@@ -29,7 +38,7 @@
 }
 
 .navbar .site-logo {
-    color: #3A3A3A;
+    color: var(--secondary-color);
     font-size: 24px;
     font-weight: 700;
 }
@@ -50,10 +59,51 @@
     font-weight: 400;
     padding: 5px 10px;
     border-radius: 5px;
+    transition: all .35s ease-in;
 }
 
 .navbar>ul>li a.active,
 .navbar>ul>li a:hover {
     color: white;
     background-color: var(--secondary-color);
+}
+
+/* Banner Part Styles  Start Here  */
+section.banner-section {
+    display: flex;
+    width: var(--primary-width);
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px auto;
+    gap: 50px;
+
+}
+
+.banner-content,
+.banner-img {
+    /* flex: 1; */
+}
+
+.banner-content .banner-title {
+    color: var(--secondary-color);
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.banner-content .banner-description {
+    color: var(--secondary-color);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.banner-content .prebook {
+    border-radius: 20px;
+    margin-top: 15px;
+    display: inline-block;
+}
+.banner-img{
+    background-image: url("../images/Circle\ design.svg");
+    background-repeat: no-repeat;
+    background-size:contain;
 }

@@ -1,0 +1,27 @@
+/* Mobile/Small Device View Styles  */
+@media screen and (max-width:576px) {
+    .navbar {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .navbar>ul {
+        flex-wrap: wrap;
+    }
+
+    section.banner-section {
+        flex-direction: column-reverse;
+    }
+
+    .banner-content {
+        text-align: center;
+    }
+
+    .banner-content .banner-title {
+        font-size: 26px;
+        line-height: normal;
+        margin-bottom: 20px;
+    }
+
+
+}

@@ -107,3 +107,6 @@ section.banner-section {
     background-repeat: no-repeat;
     background-size:contain;
 }
+.banner-img img{
+    max-width: 100%;
+}

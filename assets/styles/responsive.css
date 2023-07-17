@@ -23,5 +23,8 @@
         margin-bottom: 20px;
     }
 
+    .our-clients {
+        flex-wrap: wrap;
+    }
 
 }
